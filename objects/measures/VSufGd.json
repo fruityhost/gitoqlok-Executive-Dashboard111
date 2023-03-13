@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "VSufGd",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Days Sales Outstanding",
+    "qDef": "Sum (ARAvgBal)/Sum (ARSalesPerDay)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Days Sales Outstanding",
+    "description": "The number of days the payment is overdue.",
+    "tags": []
+  }
+}

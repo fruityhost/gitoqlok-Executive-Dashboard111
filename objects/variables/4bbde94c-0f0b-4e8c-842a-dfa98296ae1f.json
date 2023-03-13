@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "4bbde94c-0f0b-4e8c-842a-dfa98296ae1f",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vTargetSales",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=sum([Budget Amount])"
+}

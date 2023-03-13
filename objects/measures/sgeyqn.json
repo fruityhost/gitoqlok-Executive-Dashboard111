@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "sgeyqn",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Margin Amount",
+    "qDef": "(Sum([Sales Quantity]*[Sales Price])) - (Sum([Sales Cost Amount]))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Margin Amount",
+    "description": "The margin amount.",
+    "tags": [
+      "margin"
+    ]
+  }
+}

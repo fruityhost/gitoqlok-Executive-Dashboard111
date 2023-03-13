@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "KKnaBV",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Expense 2012",
+    "qDef": "if(GetSelectedCount([Fiscal Year])<>1,  \tSum({<[Fiscal Year]={$(=max([Fiscal Year])-1)} >} ExpenseActual)/1000, \tSum({<[Fiscal Year]={$(=vYear-1)}>} ExpenseActual)/1000)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Expense 2012",
+    "description": "Expenses for 2012.",
+    "tags": [
+      "expenses"
+    ]
+  }
+}

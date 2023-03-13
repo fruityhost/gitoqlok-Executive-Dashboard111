@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "WFjQfGK",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Inventory Quantity",
+    "qDef": "sum(StockOH)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Inventory Quantity",
+    "description": "The quantity in inventory.",
+    "tags": [
+      "inventory"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "YgtM",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Avg Sales Per Day",
+    "qDef": "Sum (ARSalesPerDay)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Avg Sales Per Day",
+    "description": "The average sales per day.",
+    "tags": [
+      "sales"
+    ]
+  }
+}

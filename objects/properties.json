@@ -1,0 +1,14 @@
+{
+  "qTitle": "Executive Dashboard",
+  "qThumbnail": {
+    "qUrl": "/api/v1/apps/6c3afe5f-9de2-4720-b487-793fbfc51e5b/media/files/thumb-executive_dashboard.png"
+  },
+  "description": "Executive Dashboard is for senior managers to monitor performance within their business, giving them both a high level view as well as the ability to drill down into the granular details of the business. In this example, the organization manufactures fast moving consumables, using a reseller model to distribute its products across multiple regions.",
+  "dynamicColor": "hsla(356,18%,43%,1)",
+  "encrypted": true,
+  "id": "6c3afe5f-9de2-4720-b487-793fbfc51e5b",
+  "published": false,
+  "owner": "auth0|eab1593a0c6ddda3fa9f478dac9966bd5c8c5109390f7c3cdbaab6d8ca318df5",
+  "ownerId": "6304725bf86f3058e5b26838",
+  "_resourcetype": "app"
+}

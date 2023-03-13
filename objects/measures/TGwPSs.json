@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "TGwPSs",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "CY Sales",
+    "qDef": "Sum({<[Fiscal Year]={$(=(vCurrentYear)-1)}>}[Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "CY Sales",
+    "description": "Sales for the last full year (year before the current year).",
+    "tags": [
+      "sales"
+    ]
+  }
+}

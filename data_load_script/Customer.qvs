@@ -1,0 +1,34 @@
+///$tab Customer
+CustomerAddressMaster:
+LOAD "Address Number", 
+     "Customer Address 1", 
+     "Zip Code"
+FROM 'lib://Executive Dashboard Data/CustomerAddressMaster.qvd' (qvd);
+Directory;
+
+CustomerMap:
+LOAD CustKey, 
+     CustKeyAR
+FROM 'lib://Executive Dashboard Data/CustomerMap.qvd' (qvd);
+
+CustomerMaster:
+LOAD "Address Number", 
+     "Business Family", 
+     Segment, 
+     Customer, 
+     "Customer Number", 
+     "Customer Type", 
+     "Distribution Channel Mgr", 
+     Division, 
+     Phone, 
+     "Region Code", 
+     "Regional Sales Mgr", 
+     "Zone Mgr", 
+     "Sales Rep"
+FROM 'lib://Executive Dashboard Data/CustomerMaster.qvd' (qvd);
+
+ChannelMaster:
+LOAD Segment, 
+     SegmentDesc, 
+     SegmentGroup
+FROM 'lib://Executive Dashboard Data/ChannelMaster.qvd' (qvd);

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "b5c68357-d724-494b-a77f-c668704e1500",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vVolume",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0,
+    "qDec": "."
+  },
+  "qDefinition": "0"
+}

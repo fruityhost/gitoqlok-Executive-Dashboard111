@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "bUft",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Expense as % of Sale",
+    "qDef": "If(Sum(ExpenseActual)>0,Sum(ExpenseActual),0)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Expense as % of Sale",
+    "description": "",
+    "tags": []
+  }
+}

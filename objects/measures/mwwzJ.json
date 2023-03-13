@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "mwwzJ",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Expenses vs. Target",
+    "qDef": "sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseActual)/sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>} ExpenseBudget)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Expenses vs. Target",
+    "description": "",
+    "tags": []
+  }
+}

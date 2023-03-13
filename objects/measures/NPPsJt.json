@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "NPPsJt",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Revenue",
+    "qDef": "Sum([Sales Quantity]*[Sales Price])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Revenue",
+    "description": "",
+    "tags": [
+      "revenue"
+    ]
+  }
+}

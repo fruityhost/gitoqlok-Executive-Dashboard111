@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "FDPQYx",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "AR % Overdue",
+    "qDef": "(Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)-Sum({<[Fiscal Year]={$(vYTDYear)}>} ARCurrent))/Sum({<[Fiscal Year]={$(vYTDYear)}>} AROpen)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "AR % Overdue",
+    "description": "The percentage overdue year to date.",
+    "tags": []
+  }
+}

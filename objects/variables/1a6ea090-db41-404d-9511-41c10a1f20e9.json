@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "1a6ea090-db41-404d-9511-41c10a1f20e9",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCurrentYear",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "2013",
+  "qIsScriptCreated": true
+}

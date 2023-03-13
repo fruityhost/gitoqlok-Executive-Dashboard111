@@ -1,0 +1,19 @@
+///$tab AR
+ARSummary:
+LOAD CustKeyAR, 
+     ARGross, 
+     AROpen, 
+     ARCurrent, 
+     "AR1-30", 
+     "AR31-60", 
+     "AR60+", 
+     ARCredit, 
+     ARSalesPerDay, 
+     ARAvgBal
+FROM 'lib://Executive Dashboard Data/ARSummary.qvd' (qvd);
+
+[ARSummary-1]:
+LOAD CustKeyAR, 
+     ARAge, 
+     ARAgeBal
+FROM 'lib://Executive Dashboard Data/ARSummary-1.qvd' (qvd);

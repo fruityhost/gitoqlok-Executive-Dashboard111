@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "5ca951b3-41c5-4832-94b3-ae8ed902a85f",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vAdjDays",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "0",
+  "qIsScriptCreated": true
+}

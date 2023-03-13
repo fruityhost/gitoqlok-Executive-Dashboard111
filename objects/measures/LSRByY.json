@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "LSRByY",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "% of Items",
+    "qDef": "Count(Distinct [Item-Branch Key])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "% of Items",
+    "description": "Number of items.",
+    "tags": []
+  }
+}

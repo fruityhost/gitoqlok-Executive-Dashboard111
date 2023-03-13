@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "cdb79bc7-bfa0-4210-9f95-1b5f9eddd836",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vTargetExpenses",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "10500000"
+}

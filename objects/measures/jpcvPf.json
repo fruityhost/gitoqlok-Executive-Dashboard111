@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "jpcvPf",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Expense (New Calculation)",
+    "qDef": "Sum({<[Fiscal Year]={$(vYear)}>}ExpenseActual)/1000",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Expense (New Calculation)",
+    "description": "Expenses in thousands.",
+    "tags": [
+      "expenses"
+    ]
+  }
+}

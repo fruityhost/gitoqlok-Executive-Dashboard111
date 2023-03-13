@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "vLRMZz",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Amount Overdue",
+    "qDef": "Sum (AROpen)-Sum(ARCurrent)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Amount Overdue",
+    "description": "The amount that is overdue.",
+    "tags": []
+  }
+}

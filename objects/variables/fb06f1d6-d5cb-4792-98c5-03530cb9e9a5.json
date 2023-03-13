@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "fb06f1d6-d5cb-4792-98c5-03530cb9e9a5",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vTargetInventory",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "2000000"
+}

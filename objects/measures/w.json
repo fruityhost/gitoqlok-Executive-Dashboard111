@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "w",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Inventory Amount",
+    "qDef": "Sum(StockOH*CostPrice)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Inventory Amount",
+    "description": "The amount in inventory ($).",
+    "tags": [
+      "inventory"
+    ]
+  }
+}

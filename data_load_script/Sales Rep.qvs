@@ -1,0 +1,5 @@
+///$tab Sales Rep
+SalesRepMaster:
+LOAD "Sales Rep", 
+     "Sales Rep Name"
+FROM 'lib://Executive Dashboard Data/SalesRepMaster.qvd' (qvd);

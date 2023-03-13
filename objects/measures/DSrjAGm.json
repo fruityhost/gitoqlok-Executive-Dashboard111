@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "DSrjAGm",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "# of Customers",
+    "qDef": "count(distinct [Customer Number])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "# of Customers",
+    "description": "Number of customers.",
+    "tags": [
+      "customer"
+    ]
+  }
+}

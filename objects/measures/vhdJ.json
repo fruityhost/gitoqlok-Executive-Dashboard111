@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "vhdJ",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Expense Budget",
+    "qDef": "Sum(ExpenseBudget)/1000",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Expense Budget",
+    "description": "",
+    "tags": []
+  }
+}

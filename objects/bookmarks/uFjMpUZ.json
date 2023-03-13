@@ -1,0 +1,184 @@
+{
+  "qInfo": {
+    "qId": "uFjMpUZ",
+    "qType": "bookmark"
+  },
+  "qMetaDef": {
+    "title": "Sales Analysis - High Margin Sales",
+    "description": ""
+  },
+  "sheetId": "FaQeFa",
+  "selectionFields": "Product Sub Group Desc, Sales Rep Name",
+  "creationDate": "2014-08-14",
+  "qBookMark": {
+    "qStateData": [
+      {
+        "qStateName": "$",
+        "qFieldItems": [
+          {
+            "qDef": {
+              "qName": "Product Sub Group Desc",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qText": "Wine",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Preserves",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Sugar",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Coffee",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Cheese",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Deli Meats",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Hot Dogs",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Bologna",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Fresh Vegetables",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Fresh Fruit",
+                "qNumber": "NaN"
+              }
+            ],
+            "qExcludedValues": []
+          },
+          {
+            "qDef": {
+              "qName": "Sales Rep Name",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qText": "Amanda Honda",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Amelia Fields",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Brenda Gibson",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Craig Lary",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "David Howard",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "David Laychak",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "John Greg",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Edward Laychak",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "John Davis",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Janice Scott",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Edward Smith",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Jose Bowen",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Dennis Johnson",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Donna Brown",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Craig Amundson",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Kathy Clinton",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Judy Thurman",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Karen Clinton",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Kim Williams",
+                "qNumber": "NaN"
+              },
+              {
+                "qText": "Max Blagburn",
+                "qNumber": "NaN"
+              }
+            ],
+            "qExcludedValues": []
+          }
+        ]
+      }
+    ],
+    "qVariableItems": [],
+    "qPatches": []
+  }
+}

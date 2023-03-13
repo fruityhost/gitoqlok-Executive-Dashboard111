@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "b7ede773-1d7a-4349-9355-994e99165a99",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vTodaysDate",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "41425",
+  "qIsScriptCreated": true
+}

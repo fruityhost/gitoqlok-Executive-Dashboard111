@@ -1,0 +1,8 @@
+///$tab Budget
+Budget:
+LOAD 
+     Region & '_' & Date(Addmonths(Month, 12), 'YYYYMM') as MonthlyRegionKey,
+     Budget as [Budget Amount]
+FROM
+'lib://Executive Dashboard Data/RegionalSales.xlsx'
+(ooxml, embedded labels, table is Sheet1);

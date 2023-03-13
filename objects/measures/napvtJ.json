@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "napvtJ",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Expense Amount",
+    "qDef": "sum(ExpenseActual)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Expense Amount",
+    "description": "Expenses.",
+    "tags": [
+      "expenses"
+    ]
+  }
+}

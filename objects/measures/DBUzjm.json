@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "DBUzjm",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Margin %",
+    "qDef": "((Sum([Sales Quantity]*[Sales Price]))-(Sum([Sales Cost Amount])))/(Sum([Sales Price]* [Sales Quantity]))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Margin %",
+    "description": "Margin percent.",
+    "tags": [
+      "margin"
+    ]
+  }
+}

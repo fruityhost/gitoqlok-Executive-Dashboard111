@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "dece8420-9b75-4b44-ad56-725dbb2a0630",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vYear",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Concat(DISTINCT [Fiscal Year], ',')"
+}

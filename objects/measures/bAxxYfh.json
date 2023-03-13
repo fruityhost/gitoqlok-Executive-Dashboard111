@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "bAxxYfh",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Inventory Turns Per Year",
+    "qDef": "(Sum({<[Fiscal Year]={$(vYTDYear)}>} ThroughputQty*CostPrice)/Sum({<[Fiscal Year]={$(vYTDYear)}>} StockOH*CostPrice))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Inventory Turns Per Year",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "9c01d07f-335c-4ab8-8340-29338db8b3fc",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vYTDMonth",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=if(GetSelectedCount(FiscalMonth) = 0, Month(max({<_HistoryFlag = {\"1\"}>} YYYYMM)), concat(distinct FiscalMonth, ','))"
+}

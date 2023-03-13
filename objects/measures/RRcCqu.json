@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "RRcCqu",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "# of Cust AR60+",
+    "qDef": "if( Sum ([AR60+])>0, count ( distinct [Customer Number]))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "# of Cust AR60+",
+    "description": "Number of customers overdue by 60 or more days.",
+    "tags": [
+      "account_receivables",
+      "ar"
+    ]
+  }
+}

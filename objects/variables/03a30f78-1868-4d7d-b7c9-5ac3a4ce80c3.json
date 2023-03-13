@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "03a30f78-1868-4d7d-b7c9-5ac3a4ce80c3",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCost",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "-2"
+}

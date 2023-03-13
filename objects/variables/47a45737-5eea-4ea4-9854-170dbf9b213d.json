@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "47a45737-5eea-4ea4-9854-170dbf9b213d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCurrentMonth",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "May",
+  "qIsScriptCreated": true
+}

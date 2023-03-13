@@ -1,0 +1,28 @@
+///$tab Product
+ItemMaster:
+LOAD "Product Group", 
+     "Product Line", 
+     "Product Sub Group", 
+     "Product Type", 
+    "Short Name"
+FROM 'lib://Executive Dashboard Data/ItemMaster.qvd' (qvd);
+
+ProductSubGroupMaster:
+LOAD "Product Sub Group", 
+     "Product Sub Group Desc"
+FROM 'lib://Executive Dashboard Data/ProductSubGroupMaster.qvd' (qvd);
+
+ProductTypeMaster:
+LOAD "Product Type", 
+     "Product Type Desc"
+FROM 'lib://Executive Dashboard Data/ProductTypeMaster.qvd' (qvd);
+
+ProductGroupMaster:
+LOAD "Product Group", 
+     "Product Group Desc"
+FROM 'lib://Executive Dashboard Data/ProductGroupMaster.qvd' (qvd);
+
+ItemBranchMaster:
+LOAD "Item-Branch Key", 
+     "Short Name"
+FROM 'lib://Executive Dashboard Data/ItemBranchMaster.qvd'(qvd);

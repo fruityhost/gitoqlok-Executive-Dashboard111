@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "56a1a40a-ea74-4e6c-92ff-28b41d754939",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSalesAnalysis",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "1"
+}

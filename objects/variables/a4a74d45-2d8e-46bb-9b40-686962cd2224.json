@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "a4a74d45-2d8e-46bb-9b40-686962cd2224",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vQVDPath",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Database\\QVD\\",
+  "qIsScriptCreated": true
+}

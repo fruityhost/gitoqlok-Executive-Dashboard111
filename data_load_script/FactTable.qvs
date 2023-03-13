@@ -1,0 +1,61 @@
+///$tab FactTable
+FactTable:
+LOAD 
+    Region  & '_' & Date(addmonths(YYYYMM, 12), 'YYYYMM') as MonthlyRegionKey,
+    Region,
+     "Address Number", 
+     CustKey, 
+     "Invoice Number", 
+     "Item-Branch Key", 
+     "Late Shipment", 
+     "Line Desc 1", 
+     "Open Order Amount", 
+     "Order Number", 
+     "Order Status", 
+     Date(Addmonths(OrderDate, 24)) as OrderDate, 
+     OrderID, 
+     OrderStat, 
+     Addmonths("Promised Delivery Date",24) as "Promised Delivery Date", 
+     "Sales Amount", 
+     "Sales Cost Amount", 
+     "Sales Margin Amount", 
+     "Sales Price", 
+     "Sales Quantity", 
+     "Ship To", 
+     Addmonths(YYYYMM, 12) as YYYYMM
+FROM 'lib://Executive Dashboard Data/FactTable.qvd' (qvd);
+
+Expenses:
+LOAD 
+    Region & '_' & Date(Addmonths(YYYYMM,12), 'YYYYMM') as MonthlyRegionKey,
+     Region, 
+     Account, 
+     Addmonths(YYYYMM, 12) as YYYYMM, 
+     ExpenseActual, 
+     ExpeenseBudget as ExpenseBudget
+FROM
+'lib://Executive Dashboard Data/Expenses.xls'
+(biff, embedded labels, table is Sheet1$);
+
+CONCATENATE (FactTable) LOAD
+    MonthlyRegionKey,
+    Region,
+    YYYYMM
+RESIDENT Expenses;
+
+DROP FIELDS Region, YYYYMM FROM Expenses;
+
+HistoryFlag:
+LOAD DISTINCT
+    YYYYMM,
+    if(YYYYMM <= monthstart($(vTodaysDate)), 1, 0) as _HistoryFlag
+RESIDENT FactTable;
+    
+Accounts:
+LOAD 
+     Account, 
+     AccountDesc
+FROM
+'lib://Executive Dashboard Data/ExpenseAccounts.xls'
+(biff, embedded labels, table is Sheet1$)
+WHERE AccountDesc > 0;

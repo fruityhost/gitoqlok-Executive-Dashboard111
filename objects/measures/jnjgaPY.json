@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "jnjgaPY",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Cost (Total)",
+    "qDef": "Sum([Sales Cost Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Cost (Total)",
+    "description": "Cost amount.",
+    "tags": [
+      "cost"
+    ]
+  }
+}

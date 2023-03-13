@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "NJTmn",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Revenue vs. Budget",
+    "qDef": "Sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>}[Sales Amount])/(Sum({<[Fiscal Year]={$(vYTDYear)}, _HistoryFlag={1}>}[Budget Amount]))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Revenue vs. Budget",
+    "description": "",
+    "tags": []
+  }
+}

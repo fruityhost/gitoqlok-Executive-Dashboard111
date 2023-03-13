@@ -1,0 +1,2322 @@
+{
+  "qInfo": {
+    "qId": "ANYTpUm",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Product Type Desc"
+    ],
+    "qFieldLabels": [
+      "Product Type Desc"
+    ],
+    "title": "Product Type Desc"
+  },
+  "qMetaDef": {
+    "title": "Product Type Desc",
+    "description": "",
+    "tags": [
+      "Product Hierarchy"
+    ]
+  },
+  "validity": {
+    "description": true,
+    "name": true,
+    "selectedFields": true
+  },
+  "selectedFields": [
+    "Product Type Desc"
+  ],
+  "type": "single",
+  "stringLimits": {},
+  "allFields": [
+    {
+      "qName": "Account",
+      "qCardinal": 103,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "AccountMaster",
+        "Expenses",
+        "Accounts"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I97"
+    },
+    {
+      "qName": "AccountDesc",
+      "qCardinal": 45,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Accounts"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I98"
+    },
+    {
+      "qName": "AccountGroup",
+      "qCardinal": 23,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "AccountGroupMaster",
+        "AccountMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I99"
+    },
+    {
+      "qName": "AccountGroupDesc",
+      "qCardinal": 3,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "AccountGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9A"
+    },
+    {
+      "qName": "Address Number",
+      "qCardinal": 130,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable",
+        "CustomerAddressMaster",
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9B"
+    },
+    {
+      "qName": "AR1-30",
+      "qCardinal": 40,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9C"
+    },
+    {
+      "qName": "AR31-60",
+      "qCardinal": 21,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9D"
+    },
+    {
+      "qName": "AR60+",
+      "qCardinal": 29,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9E"
+    },
+    {
+      "qName": "ARAge",
+      "qCardinal": 4,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ARSummary-1"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9F"
+    },
+    {
+      "qName": "ARAgeBal",
+      "qCardinal": 132,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary-1"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9G"
+    },
+    {
+      "qName": "ARAvgBal",
+      "qCardinal": 70,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9H"
+    },
+    {
+      "qName": "ARCredit",
+      "qCardinal": 29,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9I"
+    },
+    {
+      "qName": "ARCurrent",
+      "qCardinal": 45,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9J"
+    },
+    {
+      "qName": "ARGross",
+      "qCardinal": 73,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9K"
+    },
+    {
+      "qName": "AROpen",
+      "qCardinal": 60,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9L"
+    },
+    {
+      "qName": "ARSalesPerDay",
+      "qCardinal": 69,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9M"
+    },
+    {
+      "qName": "Budget Amount",
+      "qCardinal": 185,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Budget"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9N"
+    },
+    {
+      "qName": "Bulgarian",
+      "qCardinal": 115,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9O"
+    },
+    {
+      "qName": "Business Family",
+      "qCardinal": 6,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9P"
+    },
+    {
+      "qName": "City",
+      "qCardinal": 93,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9Q"
+    },
+    {
+      "qName": "ClassTurns",
+      "qCardinal": 22,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "InventoryBalances"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9R"
+    },
+    {
+      "qName": "CostPrice",
+      "qCardinal": 711,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "InventoryBalances"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9S"
+    },
+    {
+      "qName": "Country",
+      "qCardinal": 2,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9T"
+    },
+    {
+      "qName": "CustKey",
+      "qCardinal": 130,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable",
+        "CustomerMap"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9U"
+    },
+    {
+      "qName": "CustKeyAR",
+      "qCardinal": 73,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "CustomerMap",
+        "ARSummary",
+        "ARSummary-1"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9V"
+    },
+    {
+      "qName": "Customer",
+      "qCardinal": 130,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9W"
+    },
+    {
+      "qName": "Customer Address 1",
+      "qCardinal": 120,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9X"
+    },
+    {
+      "qName": "Customer Number",
+      "qCardinal": 130,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9Y"
+    },
+    {
+      "qName": "Customer Type",
+      "qCardinal": 2,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9Z"
+    },
+    {
+      "qName": "Distribution Channel Mgr",
+      "qCardinal": 5,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA0"
+    },
+    {
+      "qName": "Division",
+      "qCardinal": 2,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA1"
+    },
+    {
+      "qName": "English",
+      "qCardinal": 119,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA2"
+    },
+    {
+      "qName": "ExpenseActual",
+      "qCardinal": 5013,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "Expenses"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA3"
+    },
+    {
+      "qName": "ExpenseBudget",
+      "qCardinal": 2816,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "Expenses"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA4"
+    },
+    {
+      "qName": "Fiscal Quarter",
+      "qCardinal": 4,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA5"
+    },
+    {
+      "qName": "Fiscal Year",
+      "qCardinal": 3,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA6"
+    },
+    {
+      "qName": "FiscalMonth",
+      "qCardinal": 12,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA7"
+    },
+    {
+      "qName": "FiscalMonthNum",
+      "qCardinal": 12,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA8"
+    },
+    {
+      "qName": "FiscalRollQt",
+      "qCardinal": 12,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA9"
+    },
+    {
+      "qName": "French",
+      "qCardinal": 0,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAA"
+    },
+    {
+      "qName": "German",
+      "qCardinal": 117,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAB"
+    },
+    {
+      "qName": "Index",
+      "qCardinal": 119,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAC"
+    },
+    {
+      "qName": "Invoice Number",
+      "qCardinal": 18013,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAD"
+    },
+    {
+      "qName": "Item-Branch Key",
+      "qCardinal": 906,
+      "qTags": [
+        "$key",
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ItemBranchMaster",
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAE"
+    },
+    {
+      "qName": "Japanese",
+      "qCardinal": 112,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAF"
+    },
+    {
+      "qName": "Late Shipment",
+      "qCardinal": 2,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAG"
+    },
+    {
+      "qName": "Line Desc 1",
+      "qCardinal": 824,
+      "qTags": [
+        "$key",
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "InventoryBalances",
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAH"
+    },
+    {
+      "qName": "MonthlyRegionKey",
+      "qCardinal": 252,
+      "qTags": [
+        "$key",
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Budget",
+        "FactTable",
+        "Expenses"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAI"
+    },
+    {
+      "qName": "Open Order Amount",
+      "qCardinal": 781,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAJ"
+    },
+    {
+      "qName": "Order Number",
+      "qCardinal": 14369,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAK"
+    },
+    {
+      "qName": "Order Status",
+      "qCardinal": 4,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAL"
+    },
+    {
+      "qName": "OrderDate",
+      "qCardinal": 666,
+      "qTags": [
+        "$numeric",
+        "$integer",
+        "$timestamp",
+        "$date"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAM"
+    },
+    {
+      "qName": "OrderID",
+      "qCardinal": 57243,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAN"
+    },
+    {
+      "qName": "OrderStat",
+      "qCardinal": 4,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAO"
+    },
+    {
+      "qName": "Phone",
+      "qCardinal": 1,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAP"
+    },
+    {
+      "qName": "Portuguese",
+      "qCardinal": 119,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAQ"
+    },
+    {
+      "qName": "Product Group",
+      "qCardinal": 17,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster",
+        "ProductGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAR"
+    },
+    {
+      "qName": "Product Group Desc",
+      "qCardinal": 17,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ProductGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAS"
+    },
+    {
+      "qName": "Product Line",
+      "qCardinal": 2,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAT"
+    },
+    {
+      "qName": "Product Sub Group",
+      "qCardinal": 70,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster",
+        "ProductSubGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAU"
+    },
+    {
+      "qName": "Product Sub Group Desc",
+      "qCardinal": 70,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ProductSubGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAV"
+    },
+    {
+      "qName": "Product Type",
+      "qCardinal": 31,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster",
+        "ProductTypeMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAW"
+    },
+    {
+      "qName": "Product Type Desc",
+      "qCardinal": 31,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ProductTypeMaster"
+      ],
+      "dimmed": true,
+      "$$hashKey": "0IAX"
+    },
+    {
+      "qName": "Promised Delivery Date",
+      "qCardinal": 0,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAY"
+    },
+    {
+      "qName": "Region",
+      "qCardinal": 6,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAZ"
+    },
+    {
+      "qName": "Region Code",
+      "qCardinal": 4,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB0"
+    },
+    {
+      "qName": "Regional Sales Mgr",
+      "qCardinal": 15,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB1"
+    },
+    {
+      "qName": "Sales Amount",
+      "qCardinal": 14561,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB2"
+    },
+    {
+      "qName": "Sales Cost Amount",
+      "qCardinal": 7846,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB3"
+    },
+    {
+      "qName": "Sales Margin Amount",
+      "qCardinal": 15879,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB4"
+    },
+    {
+      "qName": "Sales Price",
+      "qCardinal": 7695,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB5"
+    },
+    {
+      "qName": "Sales Quantity",
+      "qCardinal": 306,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB6"
+    },
+    {
+      "qName": "Sales Rep",
+      "qCardinal": 64,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "SalesRepMaster",
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB7"
+    },
+    {
+      "qName": "Sales Rep Name",
+      "qCardinal": 63,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "SalesRepMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB8"
+    },
+    {
+      "qName": "Segment",
+      "qCardinal": 8,
+      "qTags": [
+        "$key",
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster",
+        "ChannelMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB9"
+    },
+    {
+      "qName": "SegmentDesc",
+      "qCardinal": 6,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ChannelMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBA"
+    },
+    {
+      "qName": "SegmentGroup",
+      "qCardinal": 2,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ChannelMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBB"
+    },
+    {
+      "qName": "Ship To",
+      "qCardinal": 429,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBC"
+    },
+    {
+      "qName": "Short Name",
+      "qCardinal": 826,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster",
+        "ItemBranchMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBD"
+    },
+    {
+      "qName": "Spanish",
+      "qCardinal": 119,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBE"
+    },
+    {
+      "qName": "State",
+      "qCardinal": 7,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBF"
+    },
+    {
+      "qName": "StockOH",
+      "qCardinal": 263,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "InventoryBalances"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBG"
+    },
+    {
+      "qName": "ThroughputQty",
+      "qCardinal": 457,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "InventoryBalances"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBH"
+    },
+    {
+      "qName": "YYYYMM",
+      "qCardinal": 36,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer",
+        "$timestamp",
+        "$date"
+      ],
+      "qSrcTables": [
+        "FactTable",
+        "HistoryFlag",
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBI"
+    },
+    {
+      "qName": "Zip Code",
+      "qCardinal": 116,
+      "qTags": [],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBJ"
+    },
+    {
+      "qName": "Zone Mgr",
+      "qCardinal": 6,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBK"
+    }
+  ],
+  "selectedTable": "All",
+  "filteredFields": [
+    {
+      "qName": "Account",
+      "qCardinal": 103,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "AccountMaster",
+        "Expenses",
+        "Accounts"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I97"
+    },
+    {
+      "qName": "AccountDesc",
+      "qCardinal": 45,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Accounts"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I98"
+    },
+    {
+      "qName": "AccountGroup",
+      "qCardinal": 23,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "AccountGroupMaster",
+        "AccountMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I99"
+    },
+    {
+      "qName": "AccountGroupDesc",
+      "qCardinal": 3,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "AccountGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9A"
+    },
+    {
+      "qName": "Address Number",
+      "qCardinal": 130,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable",
+        "CustomerAddressMaster",
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9B"
+    },
+    {
+      "qName": "AR1-30",
+      "qCardinal": 40,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9C"
+    },
+    {
+      "qName": "AR31-60",
+      "qCardinal": 21,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9D"
+    },
+    {
+      "qName": "AR60+",
+      "qCardinal": 29,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9E"
+    },
+    {
+      "qName": "ARAge",
+      "qCardinal": 4,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ARSummary-1"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9F"
+    },
+    {
+      "qName": "ARAgeBal",
+      "qCardinal": 132,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary-1"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9G"
+    },
+    {
+      "qName": "ARAvgBal",
+      "qCardinal": 70,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9H"
+    },
+    {
+      "qName": "ARCredit",
+      "qCardinal": 29,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9I"
+    },
+    {
+      "qName": "ARCurrent",
+      "qCardinal": 45,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9J"
+    },
+    {
+      "qName": "ARGross",
+      "qCardinal": 73,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9K"
+    },
+    {
+      "qName": "AROpen",
+      "qCardinal": 60,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9L"
+    },
+    {
+      "qName": "ARSalesPerDay",
+      "qCardinal": 69,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "ARSummary"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9M"
+    },
+    {
+      "qName": "Budget Amount",
+      "qCardinal": 185,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Budget"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9N"
+    },
+    {
+      "qName": "Bulgarian",
+      "qCardinal": 115,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9O"
+    },
+    {
+      "qName": "Business Family",
+      "qCardinal": 6,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9P"
+    },
+    {
+      "qName": "City",
+      "qCardinal": 93,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9Q"
+    },
+    {
+      "qName": "ClassTurns",
+      "qCardinal": 22,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "InventoryBalances"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9R"
+    },
+    {
+      "qName": "CostPrice",
+      "qCardinal": 711,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "InventoryBalances"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9S"
+    },
+    {
+      "qName": "Country",
+      "qCardinal": 2,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9T"
+    },
+    {
+      "qName": "CustKey",
+      "qCardinal": 130,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable",
+        "CustomerMap"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9U"
+    },
+    {
+      "qName": "CustKeyAR",
+      "qCardinal": 73,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "CustomerMap",
+        "ARSummary",
+        "ARSummary-1"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9V"
+    },
+    {
+      "qName": "Customer",
+      "qCardinal": 130,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9W"
+    },
+    {
+      "qName": "Customer Address 1",
+      "qCardinal": 120,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9X"
+    },
+    {
+      "qName": "Customer Number",
+      "qCardinal": 130,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9Y"
+    },
+    {
+      "qName": "Customer Type",
+      "qCardinal": 2,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0I9Z"
+    },
+    {
+      "qName": "Distribution Channel Mgr",
+      "qCardinal": 5,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA0"
+    },
+    {
+      "qName": "Division",
+      "qCardinal": 2,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA1"
+    },
+    {
+      "qName": "English",
+      "qCardinal": 119,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA2"
+    },
+    {
+      "qName": "ExpenseActual",
+      "qCardinal": 5013,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "Expenses"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA3"
+    },
+    {
+      "qName": "ExpenseBudget",
+      "qCardinal": 2816,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "Expenses"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA4"
+    },
+    {
+      "qName": "Fiscal Quarter",
+      "qCardinal": 4,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA5"
+    },
+    {
+      "qName": "Fiscal Year",
+      "qCardinal": 3,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA6"
+    },
+    {
+      "qName": "FiscalMonth",
+      "qCardinal": 12,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA7"
+    },
+    {
+      "qName": "FiscalMonthNum",
+      "qCardinal": 12,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA8"
+    },
+    {
+      "qName": "FiscalRollQt",
+      "qCardinal": 12,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IA9"
+    },
+    {
+      "qName": "French",
+      "qCardinal": 0,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAA"
+    },
+    {
+      "qName": "German",
+      "qCardinal": 117,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAB"
+    },
+    {
+      "qName": "Index",
+      "qCardinal": 119,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAC"
+    },
+    {
+      "qName": "Invoice Number",
+      "qCardinal": 18013,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAD"
+    },
+    {
+      "qName": "Item-Branch Key",
+      "qCardinal": 906,
+      "qTags": [
+        "$key",
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ItemBranchMaster",
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAE"
+    },
+    {
+      "qName": "Japanese",
+      "qCardinal": 112,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAF"
+    },
+    {
+      "qName": "Late Shipment",
+      "qCardinal": 2,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAG"
+    },
+    {
+      "qName": "Line Desc 1",
+      "qCardinal": 824,
+      "qTags": [
+        "$key",
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "InventoryBalances",
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAH"
+    },
+    {
+      "qName": "MonthlyRegionKey",
+      "qCardinal": 252,
+      "qTags": [
+        "$key",
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "Budget",
+        "FactTable",
+        "Expenses"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAI"
+    },
+    {
+      "qName": "Open Order Amount",
+      "qCardinal": 781,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAJ"
+    },
+    {
+      "qName": "Order Number",
+      "qCardinal": 14369,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAK"
+    },
+    {
+      "qName": "Order Status",
+      "qCardinal": 4,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAL"
+    },
+    {
+      "qName": "OrderDate",
+      "qCardinal": 666,
+      "qTags": [
+        "$numeric",
+        "$integer",
+        "$timestamp",
+        "$date"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAM"
+    },
+    {
+      "qName": "OrderID",
+      "qCardinal": 57243,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAN"
+    },
+    {
+      "qName": "OrderStat",
+      "qCardinal": 4,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAO"
+    },
+    {
+      "qName": "Phone",
+      "qCardinal": 1,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAP"
+    },
+    {
+      "qName": "Portuguese",
+      "qCardinal": 119,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAQ"
+    },
+    {
+      "qName": "Product Group",
+      "qCardinal": 17,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster",
+        "ProductGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAR"
+    },
+    {
+      "qName": "Product Group Desc",
+      "qCardinal": 17,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ProductGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAS"
+    },
+    {
+      "qName": "Product Line",
+      "qCardinal": 2,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAT"
+    },
+    {
+      "qName": "Product Sub Group",
+      "qCardinal": 70,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster",
+        "ProductSubGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAU"
+    },
+    {
+      "qName": "Product Sub Group Desc",
+      "qCardinal": 70,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ProductSubGroupMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAV"
+    },
+    {
+      "qName": "Product Type",
+      "qCardinal": 31,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster",
+        "ProductTypeMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAW"
+    },
+    {
+      "qName": "Product Type Desc",
+      "qCardinal": 31,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ProductTypeMaster"
+      ],
+      "dimmed": true,
+      "$$hashKey": "0IAX"
+    },
+    {
+      "qName": "Promised Delivery Date",
+      "qCardinal": 0,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAY"
+    },
+    {
+      "qName": "Region",
+      "qCardinal": 6,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IAZ"
+    },
+    {
+      "qName": "Region Code",
+      "qCardinal": 4,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB0"
+    },
+    {
+      "qName": "Regional Sales Mgr",
+      "qCardinal": 15,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB1"
+    },
+    {
+      "qName": "Sales Amount",
+      "qCardinal": 14561,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB2"
+    },
+    {
+      "qName": "Sales Cost Amount",
+      "qCardinal": 7846,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB3"
+    },
+    {
+      "qName": "Sales Margin Amount",
+      "qCardinal": 15879,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB4"
+    },
+    {
+      "qName": "Sales Price",
+      "qCardinal": 7695,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB5"
+    },
+    {
+      "qName": "Sales Quantity",
+      "qCardinal": 306,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB6"
+    },
+    {
+      "qName": "Sales Rep",
+      "qCardinal": 64,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "SalesRepMaster",
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB7"
+    },
+    {
+      "qName": "Sales Rep Name",
+      "qCardinal": 63,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "SalesRepMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB8"
+    },
+    {
+      "qName": "Segment",
+      "qCardinal": 8,
+      "qTags": [
+        "$key",
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster",
+        "ChannelMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IB9"
+    },
+    {
+      "qName": "SegmentDesc",
+      "qCardinal": 6,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ChannelMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBA"
+    },
+    {
+      "qName": "SegmentGroup",
+      "qCardinal": 2,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "ChannelMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBB"
+    },
+    {
+      "qName": "Ship To",
+      "qCardinal": 429,
+      "qTags": [
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "FactTable"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBC"
+    },
+    {
+      "qName": "Short Name",
+      "qCardinal": 826,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer"
+      ],
+      "qSrcTables": [
+        "ItemMaster",
+        "ItemBranchMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBD"
+    },
+    {
+      "qName": "Spanish",
+      "qCardinal": 119,
+      "qTags": [
+        "$text"
+      ],
+      "qSrcTables": [
+        "Translations"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBE"
+    },
+    {
+      "qName": "State",
+      "qCardinal": 7,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBF"
+    },
+    {
+      "qName": "StockOH",
+      "qCardinal": 263,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "InventoryBalances"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBG"
+    },
+    {
+      "qName": "ThroughputQty",
+      "qCardinal": 457,
+      "qTags": [
+        "$numeric"
+      ],
+      "qSrcTables": [
+        "InventoryBalances"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBH"
+    },
+    {
+      "qName": "YYYYMM",
+      "qCardinal": 36,
+      "qTags": [
+        "$key",
+        "$numeric",
+        "$integer",
+        "$timestamp",
+        "$date"
+      ],
+      "qSrcTables": [
+        "FactTable",
+        "HistoryFlag",
+        "Calendar"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBI"
+    },
+    {
+      "qName": "Zip Code",
+      "qCardinal": 116,
+      "qTags": [],
+      "qSrcTables": [
+        "CustomerAddressMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBJ"
+    },
+    {
+      "qName": "Zone Mgr",
+      "qCardinal": 6,
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qSrcTables": [
+        "CustomerMaster"
+      ],
+      "dimmed": false,
+      "$$hashKey": "0IBK"
+    }
+  ],
+  "tables": [
+    "All",
+    "AccountGroupMaster",
+    "AccountMaster",
+    "Accounts",
+    "ARSummary",
+    "ARSummary-1",
+    "Budget",
+    "Calendar",
+    "ChannelMaster",
+    "CustomerAddressMaster",
+    "CustomerMap",
+    "CustomerMaster",
+    "Expenses",
+    "FactTable",
+    "HistoryFlag",
+    "InventoryBalances",
+    "ItemBranchMaster",
+    "ItemMaster",
+    "ProductGroupMaster",
+    "ProductSubGroupMaster",
+    "ProductTypeMaster",
+    "SalesRepMaster",
+    "Translations"
+  ],
+  "highlightedField": null,
+  "expr": [
+    "Product Type Desc"
+  ],
+  "isEditMode": true
+}

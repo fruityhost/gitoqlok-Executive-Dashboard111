@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "pVTm",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "AR Average Balance",
+    "qDef": "Sum (ARAvgBal)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "AR Average Balance",
+    "description": "Average account receivables balance.",
+    "tags": [
+      "account_receivables",
+      "ar"
+    ]
+  }
+}

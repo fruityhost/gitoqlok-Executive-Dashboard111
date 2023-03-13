@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "KdPhAt",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "# of Products",
+    "qDef": "count(distinct [Line Desc 1])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "# of Products",
+    "description": "Number of products.",
+    "tags": [
+      "product"
+    ]
+  }
+}

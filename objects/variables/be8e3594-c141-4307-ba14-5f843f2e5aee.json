@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "be8e3594-c141-4307-ba14-5f843f2e5aee",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vOldDate",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "41425",
+  "qIsScriptCreated": true
+}

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "bea835d7-e22d-43ea-aba5-acf41aacf41c",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vRolling12months",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "41060",
+  "qIsScriptCreated": true
+}

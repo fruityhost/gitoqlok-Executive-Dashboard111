@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "djTj",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Expenses 2013",
+    "qDef": "if(GetSelectedCount([Fiscal Year])<>1,  \tSum({<[Fiscal Year]={$(=max([Fiscal Year]))} >} ExpenseActual)/1000, \tSum({<[Fiscal Year]={$(vYear)}>} ExpenseActual)/1000)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Expenses 2013",
+    "description": "2013 expenses in thousands.",
+    "tags": []
+  }
+}

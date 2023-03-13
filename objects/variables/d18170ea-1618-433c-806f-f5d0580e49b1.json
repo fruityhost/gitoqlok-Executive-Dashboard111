@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "d18170ea-1618-433c-806f-f5d0580e49b1",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vYTDYear",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=max([Fiscal Year])"
+}

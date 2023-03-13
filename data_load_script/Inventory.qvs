@@ -1,0 +1,8 @@
+///$tab Inventory
+InventoryBalances:
+LOAD "Line Desc 1", 
+     ClassTurns, 
+     ThroughputQty, 
+     CostPrice, 
+     StockOH
+FROM 'lib://Executive Dashboard Data/InventoryBalances.qvd' (qvd);

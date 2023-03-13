@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "pWej",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "LY Sales",
+    "qDef": "Sum({<[Fiscal Year]={$(=(vCurrentYear)-2)}>}[Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "LY Sales",
+    "description": "Last year sales.",
+    "tags": [
+      "sales"
+    ]
+  }
+}

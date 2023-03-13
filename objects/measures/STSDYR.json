@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "STSDYR",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Revenue vs. LY Revenue",
+    "qDef": "Sum({<[Fiscal Year]={$(=vYTDYear)}, FiscalMonthNum={\"<=$(vCurrentMonthNum)\"}>}[Sales Price]*[Sales Quantity])/Sum({<[Fiscal Year]={$(=(vYTDYear)-1)}, FiscalMonthNum={\"<=$(vCurrentMonthNum)\"}>}[Sales Price]*[Sales Quantity])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Revenue vs. LY Revenue",
+    "description": "",
+    "tags": []
+  }
+}

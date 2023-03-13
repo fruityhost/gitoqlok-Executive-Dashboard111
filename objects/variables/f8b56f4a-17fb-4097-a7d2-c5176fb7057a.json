@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "f8b56f4a-17fb-4097-a7d2-c5176fb7057a",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vPrice",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0,
+    "qDec": "."
+  },
+  "qDefinition": "1"
+}

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "ddfa82ca-e199-4baf-b1f5-7f8313ae6cbc",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vLanguage",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Minstring(_LANGUAGE)"
+}

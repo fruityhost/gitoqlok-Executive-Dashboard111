@@ -1,0 +1,15 @@
+///$tab Account
+AccountGroupMaster:
+LOAD AccountGroup, 
+     AccountGroupDesc
+FROM 'lib://Executive Dashboard Data/AccountGroupMaster.qvd' (qvd);
+
+LOAD AccountGroup, 
+     AccountGroupDesc
+FROM 'lib://Executive Dashboard Data/AccountGroupMaster.qvd'
+(qvd);
+
+AccountMaster:
+LOAD Account, 
+     AccountGroup
+FROM 'lib://Executive Dashboard Data/AccountMaster.qvd' (qvd);

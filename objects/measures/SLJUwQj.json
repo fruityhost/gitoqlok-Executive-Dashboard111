@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "SLJUwQj",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Sales Quantity",
+    "qDef": "Sum([Sales Quantity])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Sales Quantity",
+    "description": "",
+    "tags": [
+      "sales"
+    ]
+  }
+}

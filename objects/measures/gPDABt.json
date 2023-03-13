@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "gPDABt",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Expenses % of Sales",
+    "qDef": "Sum({<[Fiscal Year]={$(vYTDYear)}>}ExpenseActual)/Sum({<[Fiscal Year]={$(vYTDYear)}>}[Sales Price]*[Sales Quantity])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Expenses % of Sales",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "VjxMHP",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Budget",
+    "qDef": "Sum(ExpenseBudget)/1000",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Budget",
+    "description": "Budget.",
+    "tags": [
+      "budget"
+    ]
+  }
+}
