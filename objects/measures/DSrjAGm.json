@@ -4,7 +4,7 @@
     "qType": "measure"
   },
   "qMeasure": {
-    "qLabel": "# of Customers",
+    "qLabel": "Unique Customer Count",
     "qDef": "count(distinct [Customer Number])",
     "qGrouping": "N",
     "qExpressions": [],
@@ -13,11 +13,12 @@
       "qType": "U",
       "qnDec": 10,
       "qUseThou": 0
-    }
+    },
+    "coloring": {}
   },
   "qMetaDef": {
-    "title": "# of Customers",
-    "description": "Number of customers.",
+    "title": "Unique Customer Count",
+    "description": "This KPI expression counts the number of unique customers in the data set.",
     "tags": [
       "customer"
     ]

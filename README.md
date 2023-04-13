@@ -9,7 +9,7 @@ Created By fruityhost(No name specified in Profile) at Mon Mar 13 2023 19:01:34 
 Sheet Title | Description
 ------------ | -------------
 Account Receivable Analysis|The Account Receivables Analysis sheet provides sales information and a look at the amount due and days sales outstanding for customers.
-KPI Dashboard|sefsfsdf
+Financial Performance Insight|This sheet provides an overview of financial performance, with charts displaying trends in Accounts Receivable, Revenue, Amount Overdue by Customers, and Expenses, as well as breakdowns of Revenue and Expenses
 
 
 
