@@ -8,8 +8,8 @@ Created By fruityhost(No name specified in Profile) at Mon Mar 13 2023 19:01:34 
 
 Sheet Title | Description
 ------------ | -------------
-Account Receivable Analysis|The Account Receivables Analysis sheet provides sales information and a look at the amount due and days sales outstanding for customers.
-Financial Performance Insight|This sheet provides an overview of financial performance, with charts displaying trends in Accounts Receivable, Revenue, Amount Overdue by Customers, and Expenses, as well as breakdowns of Revenue and Expenses
+Sales Performance Analysis|This sheet provides an overview of sales performance and financial metrics. It includes a table showing the comparison of current year and last year sales figures, as well as multiple gauges and scatterplots to visualize trends related to sales and financial indicators
+Financial Performance Insight|This sheet contains visualizations to monitor the performance of various accounts, products, and customers. It includes linecharts, gauges, piecharts, and a combochart to compare different metrics
 
 
 

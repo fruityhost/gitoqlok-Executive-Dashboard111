@@ -5,8 +5,8 @@
       "qType": "sheet"
     },
     "qMetaDef": {
-      "title": "Account Receivable Analysis",
-      "description": "The Account Receivables Analysis sheet provides sales information and a look at the amount due and days sales outstanding for customers."
+      "title": "Sales Performance Analysis",
+      "description": "This sheet provides an overview of sales performance and financial metrics. It includes a table showing the comparison of current year and last year sales figures, as well as multiple gauges and scatterplots to visualize trends related to sales and financial indicators"
     },
     "rank": 2,
     "columns": 24,
