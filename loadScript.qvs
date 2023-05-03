@@ -90,7 +90,7 @@ LOAD
      "Address Number", 
      CustKey, 
      "Invoice Number", 
-     "Item-Branch Key", 
+     "Item-Branch Key",
      "Late Shipment", 
      "Line Desc 1", 
      "Open Order Amount", 
