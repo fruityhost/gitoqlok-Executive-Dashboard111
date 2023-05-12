@@ -1,31 +1,31 @@
 {
-  "qProperty": { //every list in Qlik is a property - a container that contains visual objects. all sheet info in JSON is enclosed via qProperty
-    "qInfo": {  //qInfo contains the qlik object id and an identification that the object is a sheet via qID and qType
+  "qProperty": {
+    "qInfo": {
       "qId": "8d5480cd-7bb8-45c8-860b-2d9125149050",
       "qType": "sheet"
     },
-    "qMetaDef": { //qMetaDef always contains title and description for the sheet
+    "qMetaDef": {
       "title": "Sheet for JSON",
       "description": ""
     },
-    "rank": 4, //?rank is the sheet order
+    "rank": 4,
     "thumbnail": {
       "qStaticContentUrlDef": {}
     },
-    "columns": 24, //columns and raws are the overall cols and raws that the data contains for the current app
+    "columns": 24,
     "rows": 12,
-    "cells": [ //cell is basically the unit of qlik dashboard. notice - enclosed via []
+    "cells": [
       {
         "name": "HGjWgB",
-        "type": "linechart", //cruicial! type of sheet object
-        "col": 0, //cols and raws. values are present for table or gauge, 0 for linechart or scatterplot, etc.
+        "type": "linechart",
+        "col": 0,
         "row": 0,
-        "colspan": 12, //cruicial! colspan and rowspan proxy for the size of a sheet object. colspan of 12 means that the line chart occupies 12 cells horizontally
+        "colspan": 12,
         "rowspan": 6,
         "bounds": {
           "y": 0,
           "x": 0,
-          "width": 50, //cruicial! basically the size of a sheet object. ?not sure about the units of measurements
+          "width": 50,
           "height": 50
         }
       },
@@ -43,8 +43,8 @@
           "height": 50
         }
       }
-    ], // end of cells []
-    "qChildListDef": { //??? what
+    ],
+    "qChildListDef": {
       "qData": {
         "title": "/title"
       }

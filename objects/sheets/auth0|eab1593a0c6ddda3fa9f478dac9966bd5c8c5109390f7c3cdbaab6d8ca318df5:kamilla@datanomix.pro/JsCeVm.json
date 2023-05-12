@@ -796,10 +796,11 @@
           ],
           "qMeasures": [
             {
-              "qLibraryId": "TGwPSs",
               "qDef": {
+                "qLabel": "CY Sales",
                 "qTags": [],
                 "qGrouping": "N",
+                "qDef": "Sum({<[Fiscal Year]={$(=(vCurrentYear)-1)}>}[Sales Amount])",
                 "qNumFormat": {
                   "qType": "U",
                   "qnDec": 10,
@@ -925,7 +926,28 @@
           "qColumnOrder": [],
           "qExpansionState": [],
           "qDynamicScript": [],
-          "qLayoutExclude": {}
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
         },
         "refLine": {
           "refLinesX": [],
