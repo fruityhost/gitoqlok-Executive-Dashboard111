@@ -1,0 +1,252 @@
+{
+      "qChildren": [
+         {
+            "qChildren": [],
+            "qProperty": {
+               "footnote": "",
+               "multiline": {
+                  "wrapTextInCells": true,
+                  "wrapTextInHeaders": true
+               },
+               "qHyperCubeDef": {
+                  "columnOrder": [
+                     0,
+                     1
+                  ],
+                  "columnWidths": [
+                     -1,
+                     -1
+                  ],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                     "qCond": {},
+                     "qMsg": {}
+                  },
+                  "qColumnOrder": [
+                     0,
+                     1
+                  ],
+                  "qDimensions": [
+                     {
+                        "qAttributeDimensions": [],
+                        "qAttributeExpressions": [],
+                        "qCalcCond": {},
+                        "qCalcCondition": {
+                           "qCond": {},
+                           "qMsg": {}
+                        },
+                        "qDef": {
+                           "autoSort": false,
+                           "cId": "AwHhJhH",
+                           "othersLabel": "Others",
+                           "qActiveField": 0,
+                           "qFieldDefs": [
+                              "Month"
+                           ],
+                           "qFieldLabels": [
+                              ""
+                           ],
+                           "qGrouping": "N",
+                           "qLabelExpression": "=' '",
+                           "qNumberPresentations": [],
+                           "qSortCriterias": [
+                              {
+                                 "qExpression": {},
+                                 "qSortByAscii": 0,
+                                 "qSortByLoadOrder": 1,
+                                 "qSortByNumeric": 1
+                              }
+                           ],
+                           "representation": {
+                              "type": "text",
+                              "urlLabel": ""
+                           },
+                           "textAlign": {
+                              "align": "left",
+                              "auto": true
+                           }
+                        },
+                        "qOtherLabel": {
+                           "qv": "Others"
+                        },
+                        "qOtherTotalSpec": {
+                           "qApplyEvenWhenPossiblyWrongResult": true,
+                           "qForceBadValueKeeping": true,
+                           "qOtherCounted": {
+                              "qv": "10"
+                           },
+                           "qOtherLimit": {
+                              "qv": "0"
+                           },
+                           "qOtherLimitMode": "OTHER_GE_LIMIT",
+                           "qOtherMode": "OTHER_COUNTED",
+                           "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                           "qReferencedExpression": {},
+                           "qTotalMode": "TOTAL_OFF"
+                        },
+                        "qTotalLabel": {}
+                     }
+                  ],
+                  "qDynamicScript": [],
+                  "qExpansionState": [],
+                  "qInitialDataFetch": [],
+                  "qInterColumnSortOrder": [
+                     0,
+                     1
+                  ],
+                  "qLayoutExclude": {
+                     "qHyperCubeDef": {
+                        "qCalcCond": {},
+                        "qCalcCondition": {
+                           "qCond": {},
+                           "qMsg": {}
+                        },
+                        "qColumnOrder": [],
+                        "qDimensions": [],
+                        "qDynamicScript": [],
+                        "qExpansionState": [],
+                        "qInitialDataFetch": [],
+                        "qInterColumnSortOrder": [],
+                        "qMaxStackedCells": 5000,
+                        "qMeasures": [],
+                        "qMode": "S",
+                        "qNoOfLeftDims": -1,
+                        "qPseudoDimPos": -1,
+                        "qReductionMode": "N",
+                        "qTitle": {}
+                     }
+                  },
+                  "qMaxStackedCells": 5000,
+                  "qMeasures": [
+                     {
+                        "qAttributeDimensions": [],
+                        "qAttributeExpressions": [],
+                        "qCalcCond": {},
+                        "qCalcCondition": {
+                           "qCond": {},
+                           "qMsg": {}
+                        },
+                        "qDef": {
+                           "autoSort": false,
+                           "cId": "exbXr",
+                           "isCustomFormatted": false,
+                           "numFormatFromTemplate": false,
+                           "qAccumulate": 0,
+                           "qActiveExpression": 0,
+                           "qAggrFunc": "Expr",
+                           "qDef": "sum({<[Opportunity Triphase]={'OPEN'}>}[Opportunity Amount] * $(='ExRate_USD')*[Opportunity Probability])/1000000",
+                           "qExpressions": [],
+                           "qGrouping": "N",
+                           "qLabelExpression": "='  '",
+                           "qNumFormat": {
+                              "qDec": ".",
+                              "qFmt": "$#,##0.00M",
+                              "qThou": ",",
+                              "qType": "F",
+                              "qUseThou": 0,
+                              "qnDec": 2
+                           },
+                           "qTags": [],
+                           "textAlign": {
+                              "align": "left",
+                              "auto": true
+                           }
+                        },
+                        "qMiniChartDef": {
+                           "qAttributeExpressions": [],
+                           "qMaxNumberPoints": -1,
+                           "qOtherTotalSpec": {
+                              "qApplyEvenWhenPossiblyWrongResult": true,
+                              "qForceBadValueKeeping": true,
+                              "qOtherCounted": {},
+                              "qOtherLimit": {},
+                              "qOtherLimitMode": "OTHER_GT_LIMIT",
+                              "qOtherMode": "OTHER_OFF",
+                              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                              "qReferencedExpression": {},
+                              "qTotalMode": "TOTAL_OFF"
+                           },
+                           "qSortBy": {
+                              "qExpression": {}
+                           }
+                        },
+                        "qSortBy": {
+                           "qExpression": {},
+                           "qSortByLoadOrder": 1
+                        },
+                        "qTrendLines": []
+                     }
+                  ],
+                  "qMode": "S",
+                  "qNoOfLeftDims": -1,
+                  "qPseudoDimPos": -1,
+                  "qReductionMode": "N",
+                  "qSuppressMissing": true,
+                  "qTitle": {}
+               },
+               "qInfo": {
+                  "qId": "mJUZUS",
+                  "qType": "chart"
+               },
+               "qMetaDef": {},
+               "scrolling": {
+                  "keepFirstColumnInView": false
+               },
+               "showDetails": false,
+               "showTitles": true,
+               "subtitle": "",
+               "title": "Total Sales by Month",
+               "totals": {
+                  "label": "Totals",
+                  "position": "top",
+                  "show": false
+               },
+               "visualization": "linechart"
+            }
+         }
+      ],
+      "qProperty": {
+         "cells": [
+            {
+               "bounds": {
+                  "height": 50,
+                  "width": 50,
+                  "x": 0,
+                  "y": 0
+               },
+               "col": 0,
+               "colspan": 12,
+               "name": "mJUZUS",
+               "row": 0,
+               "rowspan": 6,
+               "type": "table"
+            }
+         ],
+         "columns": 24,
+         "gridMode": "edit",
+         "gridResolution": "small",
+         "qChildListDef": {
+            "qData": {
+               "title": "/title"
+            }
+         },
+         "qInfo": {
+            "qId": "4070e683-0e9a-42da-81cb-efbb7d7ec596",
+            "qType": "sheet"
+         },
+         "qMetaDef": {
+            "description": "",
+            "title": "Sales Dashboard"
+         },
+         "rank": 0,
+         "rows": 12,
+         "thumbnail": {
+            "qStaticContentUrlDef": {
+               "qUrl": "/appcontent/d62c0c54-051a-4423-b9f2-c884d5172916/Salesforce1.png"
+            }
+         }
+      }
+
+}
+
+
