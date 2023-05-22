@@ -8,8 +8,9 @@ Created By fruityhost(No name specified in Profile) at Mon Mar 13 2023 19:01:34 
 
 Sheet Title | Description
 ------------ | -------------
-Sheet for JSON|
-Sales Performance Analysis|This sheet provides an overview of sales performance and financial metrics. It includes a table showing the comparison of current year and last year sales figures, as well as multiple gauges and scatterplots to visualize trends related to sales and financial indicators
+Sales Dashboard|
+Sheet for JSON|This sheet presents an overview of cost and sales quantity by month and customer type. It shows the total cost for each month and the sales quantity for each customer type
+CY Sales vs LY Sales Analysis|This sheet provides an overview of the sales performance of products, customers and accounts receivables over the past two years. It includes a comparison of the sales from the current year to the previous year, a gauge chart to measure the sales margin, another gauge chart to measure the sales performance by comparing average sales per day with average balance, and a chart to compare the sales and margin for customers
 Financial Performance Insight|This sheet contains visualizations to monitor the performance of various accounts, products, and customers. It includes linecharts, gauges, piecharts, and a combochart to compare different metrics
 
 

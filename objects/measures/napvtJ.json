@@ -4,7 +4,7 @@
     "qType": "measure"
   },
   "qMeasure": {
-    "qLabel": "Expense Amount",
+    "qLabel": "Sum of Actual Expenses",
     "qDef": "sum(ExpenseActual)",
     "qGrouping": "N",
     "qExpressions": [],
@@ -13,11 +13,12 @@
       "qType": "U",
       "qnDec": 10,
       "qUseThou": 0
-    }
+    },
+    "coloring": {}
   },
   "qMetaDef": {
-    "title": "Expense Amount",
-    "description": "Expenses.",
+    "title": "Sum of Actual Expenses",
+    "description": "This expression sums up the total actual expenses incurred.",
     "tags": [
       "expenses"
     ]

@@ -5,8 +5,8 @@
       "qType": "sheet"
     },
     "qMetaDef": {
-      "title": "Sales Performance Analysis",
-      "description": "This sheet provides an overview of sales performance and financial metrics. It includes a table showing the comparison of current year and last year sales figures, as well as multiple gauges and scatterplots to visualize trends related to sales and financial indicators"
+      "title": "CY Sales vs LY Sales Analysis",
+      "description": "This sheet provides an overview of the sales performance of products, customers and accounts receivables over the past two years. It includes a comparison of the sales from the current year to the previous year, a gauge chart to measure the sales margin, another gauge chart to measure the sales performance by comparing average sales per day with average balance, and a chart to compare the sales and margin for customers"
     },
     "rank": 2,
     "columns": 24,
