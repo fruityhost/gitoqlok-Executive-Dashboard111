@@ -6,7 +6,7 @@
     },
     "qMetaDef": {
       "title": "Sheet for JSON",
-      "description": "This sheet presents an overview of cost and sales quantity by month and customer type. It shows the total cost for each month and the sales quantity for each customer type"
+      "description": ""
     },
     "rank": 4,
     "thumbnail": {
@@ -33,11 +33,11 @@
         "name": "wCKRmt",
         "type": "piechart",
         "col": 12,
-        "row": 6,
+        "row": 0,
         "colspan": 12,
         "rowspan": 6,
         "bounds": {
-          "y": 50,
+          "y": 0,
           "x": 50,
           "width": 50,
           "height": 50
@@ -67,11 +67,14 @@
         "qHyperCubeDef": {
           "qDimensions": [
             {
-              "qLibraryId": "dyCEjG",
               "qDef": {
                 "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
+                "qFieldDefs": [
+                  "Fiscal Year"
+                ],
+                "qFieldLabels": [
+                  "Month"
+                ],
                 "qSortCriterias": [
                   {
                     "qSortByNumeric": 1,
@@ -237,7 +240,7 @@
           "dimRefLines": []
         },
         "showTitles": true,
-        "title": "Total Cost by Months",
+        "title": "diagram",
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": false,
@@ -335,11 +338,14 @@
         "qHyperCubeDef": {
           "qDimensions": [
             {
-              "qLibraryId": "FYkzzR",
               "qDef": {
                 "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
+                "qFieldDefs": [
+                  "Order Status"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
                 "qSortCriterias": [
                   {
                     "qSortByNumeric": 1,
@@ -484,7 +490,7 @@
         },
         "script": "",
         "showTitles": true,
-        "title": "Sales Quantity by Customer Type",
+        "title": "Diagram",
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": false,
