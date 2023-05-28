@@ -42,6 +42,20 @@
           "width": 50,
           "height": 50
         }
+      },
+      {
+        "name": "kvSNNa",
+        "type": "boxplot",
+        "col": 0,
+        "row": 0,
+        "colspan": 12,
+        "rowspan": 6,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 50,
+          "height": 50
+        }
       }
     ],
     "qChildListDef": {
@@ -219,7 +233,7 @@
         },
         "script": "",
         "showTitles": true,
-        "title": "chart1",
+        "title": "hello piechart",
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": false,
@@ -409,7 +423,7 @@
           "refLines": []
         },
         "showTitles": true,
-        "title": "chart2",
+        "title": "hello hist",
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": false,
@@ -589,6 +603,744 @@
               "qValueExpression": {
                 "qExpr": "=Ceil(Log10(Count([Open Order Amount])) / Log10(2)) + 1"
               }
+            }
+          }
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "kvSNNa",
+          "qType": "boxplot"
+        },
+        "qMetaDef": {},
+        "boxplotDef": {
+          "qHyperCubeDef": {
+            "qDimensions": [
+              {
+                "qLibraryId": "pcZcGjn",
+                "qDef": {
+                  "qGrouping": "N",
+                  "qFieldDefs": [],
+                  "qFieldLabels": [],
+                  "qSortCriterias": [
+                    {
+                      "qSortByNumeric": 1,
+                      "qSortByAscii": 1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {}
+                    }
+                  ],
+                  "qNumberPresentations": [],
+                  "qActiveField": 0,
+                  "autoSort": true,
+                  "cId": "aqegR",
+                  "othersLabel": "Others"
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {
+                    "qv": "10"
+                  },
+                  "qOtherLimit": {
+                    "qv": "0"
+                  },
+                  "qOtherLimitMode": "OTHER_GE_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qOtherLabel": {
+                  "qv": "Others"
+                },
+                "qTotalLabel": {},
+                "qCalcCond": {},
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [],
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                }
+              }
+            ],
+            "qMeasures": [
+              {
+                "qLibraryId": "KdPhAt",
+                "qDef": {
+                  "qTags": [],
+                  "qGrouping": "N",
+                  "qAccumulate": 0,
+                  "qActiveExpression": 0,
+                  "qExpressions": [],
+                  "autoSort": true,
+                  "cId": "vWwGjy",
+                  "numFormatFromTemplate": true,
+                  "quarantine": {
+                    "qNumFormat": {},
+                    "isCustomFormatted": false
+                  }
+                },
+                "qSortBy": {
+                  "qSortByNumeric": -1,
+                  "qSortByLoadOrder": 1,
+                  "qExpression": {}
+                },
+                "qAttributeExpressions": [],
+                "qAttributeDimensions": [],
+                "qCalcCond": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qTrendLines": [],
+                "qMiniChartDef": {
+                  "qSortBy": {
+                    "qExpression": {}
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {},
+                    "qOtherLimit": {},
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qMaxNumberPoints": -1,
+                  "qAttributeExpressions": []
+                }
+              }
+            ],
+            "qInterColumnSortOrder": [
+              0,
+              1
+            ],
+            "qSuppressMissing": true,
+            "qInitialDataFetch": [],
+            "qReductionMode": "N",
+            "qMode": "S",
+            "qPseudoDimPos": -1,
+            "qNoOfLeftDims": -1,
+            "qAlwaysFullyExpanded": true,
+            "qMaxStackedCells": 5000,
+            "qCalcCond": {},
+            "qTitle": {},
+            "qCalcCondition": {
+              "qCond": {},
+              "qMsg": {}
+            },
+            "qColumnOrder": [],
+            "qExpansionState": [],
+            "qDynamicScript": [],
+            "qLayoutExclude": {
+              "qHyperCubeDef": {
+                "qDimensions": [],
+                "qMeasures": [],
+                "qInterColumnSortOrder": [],
+                "qInitialDataFetch": [],
+                "qReductionMode": "N",
+                "qMode": "S",
+                "qPseudoDimPos": -1,
+                "qNoOfLeftDims": -1,
+                "qMaxStackedCells": 5000,
+                "qCalcCond": {},
+                "qTitle": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qColumnOrder": [],
+                "qExpansionState": [],
+                "qDynamicScript": []
+              }
+            }
+          },
+          "calculations": {
+            "auto": true,
+            "mode": "tukey",
+            "parameters": {
+              "tukey": 1.5,
+              "fractiles": 0.01,
+              "stdDev": 3
+            }
+          },
+          "elements": {
+            "firstWhisker": {
+              "name": "",
+              "expression": null
+            },
+            "boxStart": {
+              "name": "",
+              "expression": null
+            },
+            "boxMiddle": {
+              "name": "",
+              "expression": null
+            },
+            "boxEnd": {
+              "name": "",
+              "expression": null
+            },
+            "lastWhisker": {
+              "name": "",
+              "expression": null
+            },
+            "outliers": {
+              "include": true,
+              "sortOutliers": true
+            }
+          },
+          "presentation": {
+            "whiskers": {
+              "show": true
+            }
+          },
+          "color": {
+            "auto": true,
+            "mode": "primary",
+            "box": {
+              "paletteColor": {
+                "color": "#e6e6e6",
+                "index": -1
+              }
+            },
+            "point": {
+              "paletteColor": {
+                "color": "#4477aa",
+                "index": 6
+              }
+            },
+            "expressionIsColor": true,
+            "useBaseColors": "off",
+            "expressionLabel": ""
+          },
+          "sorting": {
+            "autoSort": true
+          }
+        },
+        "script": "",
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": "hello boxplot",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": true,
+        "showDetailsExpression": false,
+        "showDisclaimer": true,
+        "components": null,
+        "orientation": "vertical",
+        "gridlines": {
+          "auto": true,
+          "spacing": 2
+        },
+        "measureAxis": {
+          "show": "all",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10
+        },
+        "dimensionAxis": {
+          "show": "all",
+          "label": "auto",
+          "dock": "near"
+        },
+        "visualization": "boxplot",
+        "version": "0.36.1",
+        "sorting": {
+          "autoSort": true,
+          "elementId": "firstWhisker",
+          "sortCriteria": {
+            "sortByAscii": 0,
+            "sortByExpression": 0,
+            "sortByNumeric": 0
+          }
+        },
+        "qUndoExclude": {
+          "hashCode": -1269370455,
+          "box": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qLabel": "First whisker",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Rangemax(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 ) - ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Min( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  ))",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "cId": "kPfUFhM"
+                  },
+                  "qSortBy": {
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "='Box start - 1.5 IQR'",
+                      "qAttribute": true,
+                      "id": "tooltip"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  },
+                  "boxElement": "firstWhisker"
+                },
+                {
+                  "qDef": {
+                    "qLabel": "Box start",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "cId": "NucDP"
+                  },
+                  "qSortBy": {
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "='First quartile'",
+                      "qAttribute": true,
+                      "id": "tooltip"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  },
+                  "boxElement": "boxStart"
+                },
+                {
+                  "qDef": {
+                    "qLabel": "Center line",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Median( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  )",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "cId": "pkFm"
+                  },
+                  "qSortBy": {
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "='Median'",
+                      "qAttribute": true,
+                      "id": "tooltip"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  },
+                  "boxElement": "boxMiddle"
+                },
+                {
+                  "qDef": {
+                    "qLabel": "Box end",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 )",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "cId": "yrmX"
+                  },
+                  "qSortBy": {
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "='Third quartile'",
+                      "qAttribute": true,
+                      "id": "tooltip"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  },
+                  "boxElement": "boxEnd"
+                },
+                {
+                  "qDef": {
+                    "qLabel": "Last whisker",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Rangemin(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) + ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Max( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  ))",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "cId": "mevfba"
+                  },
+                  "qSortBy": {
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "='Box end + 1.5 IQR'",
+                      "qAttribute": true,
+                      "id": "tooltip"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  },
+                  "boxElement": "lastWhisker"
+                }
+              ],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          },
+          "outliers": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "=aggr( If( count(distinct [Line Desc 1]) < Rangemax(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 ) - ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Min( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  )) or count(distinct [Line Desc 1]) > Rangemin(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) + ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Max( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  )),  [Customer] ), [Customer] )"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qSortByExpression": 1,
+                        "qExpression": {
+                          "qv": "=aggr( If( count(distinct [Line Desc 1]) < Rangemax(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 ) - ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Min( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  )), Rangemax(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 ) - ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Min( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  )) - count(distinct [Line Desc 1]), count(distinct [Line Desc 1]) - Rangemin(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) + ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Max( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  )) ), [Customer] )"
+                        }
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "ECpjhBP",
+                    "othersLabel": "Others"
+                  },
+                  "qNullSuppression": true,
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qSuppressOther": true,
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Others"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                },
+                {
+                  "qLibraryId": "pcZcGjn",
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [],
+                    "qFieldLabels": [],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "aqegR",
+                    "othersLabel": "Others"
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qSuppressOther": true,
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Others"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                }
+              ],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "=aggr( If( count(distinct [Line Desc 1]) < Rangemax(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 ) - ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Min( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  )) or count(distinct [Line Desc 1]) > Rangemin(Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) + ((Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.75 ) - Fractile( total  Aggr( count(distinct [Line Desc 1]),  [Customer] ) ,0.25 )) * 1.5), Max( total  Aggr( count(distinct [Line Desc 1]),  [Customer] )  )), count(distinct [Line Desc 1]) ), [Customer] )",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "vWwGjy",
+                    "numFormatFromTemplate": true,
+                    "quarantine": {
+                      "qNumFormat": {},
+                      "isCustomFormatted": false
+                    }
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  }
+                }
+              ],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2
+              ],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "K",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qAlwaysFullyExpanded": true,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
             }
           }
         }
