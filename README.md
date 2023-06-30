@@ -16,4 +16,3 @@ Financial Performance Insight|This sheet contains visualizations to monitor the 
 
 Branch Name|Qlik application
 ---|---
-main|[https://4q2az9y0rhp2o8s.eu.qlikcloud.com/sense/app/6c3afe5f-9de2-4720-b487-793fbfc51e5b](https://4q2az9y0rhp2o8s.eu.qlikcloud.com/sense/app/6c3afe5f-9de2-4720-b487-793fbfc51e5b)
